@@ -15,7 +15,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@organisation-test/ui-header": ["libs/ui-header/src/index.ts"],
+      "@organisation-test/api-inteface": ["libs/api-inteface/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
